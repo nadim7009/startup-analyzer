@@ -1,0 +1,6 @@
+.env
+.env.local
+.env.*
+node_modules/
+venv/
+db.sqlite3
