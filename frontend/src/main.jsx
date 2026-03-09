@@ -8,7 +8,7 @@ import { AuthProvider } from "./context/AuthContext";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import Login from "./pages/Login";
-import Register from "./pages/register";
+import Register from "./pages/Register";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -16,8 +16,8 @@ createRoot(document.getElementById("root")).render(
       <AuthProvider>
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/reset-password/:token" element={<ResetPassword />} />
         </Routes>
