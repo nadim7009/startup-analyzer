@@ -76,8 +76,3 @@ export default {
       },
       backdropBlur: {
         xs: '2px',
-      },
-    },
-  },
-  plugins: [],
-}
